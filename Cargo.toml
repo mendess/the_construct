@@ -1,0 +1,23 @@
+[package]
+name = "the_construct"
+version = "0.1.0"
+authors = ["mendess <pedro.mendes.26@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = { version = "0.4.x", features = ["serde"] }
+serde = { version = "1.x", features = ["derive"] }
+bincode = "1.2.x"
+tokio = { version = "0.2.x", features = [
+    "io-util", "time", "stream", "dns",
+    "rt-threaded", "macros", "tcp", "sync"]
+}
+tokio-serde = { version = "0.6.x", features = ["bincode"] }
+tokio-util = { version = "0.3.x", features = ["codec"] }
+futures-util = "0.3.x"
+
+[dev-dependencies]
+rand = "0.7.x"
+
+[[example]]
+name = "client"
