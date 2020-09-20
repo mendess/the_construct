@@ -1,0 +1,4 @@
+https://wiki.videolan.org/Documentation:Documentation/
+https://wiki.videolan.org/Hacker_Guide/How_To_Write_a_Module/#Open.28vlc_object_t_.2A.29
+https://www.videolan.org/developers/vlc/share/lua/README.txt
+
